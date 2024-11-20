@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Filmes</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js" defer type="module"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">ArclabFlix</h1>
+    </header>
+
+    <nav id="caixa-menu">
+        <div id="menu">
+            <div class="item-menu">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="item-menu">
+                <a href="geren.html">Gerenciamento</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <!-- sessão forms -->
+        <section>
+            <div id="div-form">
+                <h1>Cadastro de Filmes</h1>
+                <form id="form">
+                    <label>Título</label>
+                    <input type="text" name="txt-title" id="title">
+                    <label>Imagem</label>
+                    <input type="text" name="txt-image" id="image">
+                    <label>Sinopse</label>
+                    <textarea id="sinopse"></textarea>
+                    <label>Price</label> 
+                    <input type="text" name="txt_price" id="price" ><br>
+                    
+                    <div id="salvar">Salvar</div>
+                </form>
+            </div>
+        </section>
+
+        <!-- sessão lista dos filmes -->
+
+        <section id="filmes">
+            <div class="conteudo" id="cardFilme">
+                <!-- 
+                <div id="" class="caixa-filme">
+                    <h2 class="caixa-titulo">Título</h2>
+                    <figure class="caixa-imagem">
+                        <img src="https://i.imgur.com/PemGDxr.png">
+                    </figure>
+                    <h3 class="caixa-sinopse">sinopse</h3>
+                    <h3 class="caixa-valor">valor</h3>
+                    <div>
+                        <span>Editar<img src="icones/editar.png"></span>
+                    </div>
+                    <div>
+                        <span>Excluir<img src="icones/excluir.png"></span></div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <h1>Pedro Allison and Victor Nobrega</h1>
+    </footer>
+
+
+    
+</body>
+</html>
